@@ -1,4 +1,35 @@
 .home{
     text-align: center;
-    
+    font-family: cursive,sans-serif;
+}
+
+h1{
+    margin-top: 0;
+    padding: 40px 0px;
+    background-color: #0A174A;
+    color: #F5D042;
+}
+
+.navs{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 50px;
+}
+
+.home-cart{
+    margin: 3%;
+    box-shadow:0px 0px 12px 1px #0000002b ;
+}
+
+.home-cart a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #c22033;
+}
+
+.home-cart img{
+    width: 460px;
+    height: 300px;
 }
