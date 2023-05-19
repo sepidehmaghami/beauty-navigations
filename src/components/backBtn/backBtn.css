@@ -1,4 +1,11 @@
+.backBtn{
+    display: flex;
+    justify-content: center;
+}
 
+.backBtn a{
+    text-decoration: none;
+}
 
 .btn {
     -webkit-box-sizing: border-box;

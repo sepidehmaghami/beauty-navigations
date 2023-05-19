@@ -1,0 +1,20 @@
+.navigation-two{
+    background-color: #109e55;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.nav-two{
+    margin: 20px 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(103, 103, 103);
+}
+

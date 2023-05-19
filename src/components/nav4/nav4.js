@@ -1,4 +1,4 @@
-import './nav3.css';
+import './nav4.css';
 import BackBtn from '../backBtn/backBtn';
 import React from 'react';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
@@ -7,8 +7,8 @@ import ListIcon from '@material-ui/icons/List';
 import LocalOfferIcon from '@material-ui/icons/LocalOffer';
 import LocalMallIcon from '@material-ui/icons/LocalMall';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-function Nav3() {
 
+function Nav4() {
   const [value, setValue] = React.useState(0);
   return (
     <div className="navigation-three">
@@ -17,7 +17,7 @@ function Nav3() {
       onChange={(event, newValue) => {
         setValue(newValue);
       }}
-      showLabels
+      // showLabels
       className="nav-three"
     >
       <BottomNavigationAction label="List" icon={<ListIcon />} />
@@ -30,4 +30,4 @@ function Nav3() {
   );
 }
 
-export default Nav3;
+export default Nav4;

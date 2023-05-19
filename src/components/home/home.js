@@ -6,6 +6,7 @@ import Nav3 from '../asserts/nav3.jpg';
 import Nav4 from '../asserts/nav4.jpg';
 
 function Home() {
+
   return (
     <div className="home">
         <h1>
