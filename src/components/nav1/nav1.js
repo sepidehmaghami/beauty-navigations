@@ -33,7 +33,8 @@ function Nav1() {
           <Tab icon={<PersonPinIcon />} aria-label="person"/>
           <Tab icon={<HelpIcon />} aria-label="help"/>
           <Tab icon={<ShoppingBasket />} aria-label="shopping"/>
-          <Tab icon={<ThumbDown />} aria-label="up"/>
+          <Tab icon={<ThumbUp />} aria-label="up"/>
+          <Tab icon={<ThumbDown />} aria-label="down"/>
         </Tabs>
       </AppBar>
 
