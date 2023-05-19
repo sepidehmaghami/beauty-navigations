@@ -16,7 +16,12 @@ function Nav2() {
   return (
     <div >
       <AppBar position="static" className="navigation-two">
-        <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
+        <Tabs 
+          value={value} 
+          onChange={handleChange} 
+          aria-label="simple tabs example"
+          centered
+          >
           <Tab label="Item One"  />
           <Tab label="Item Two"  />
           <Tab label="Item Three"  />
