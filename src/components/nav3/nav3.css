@@ -10,7 +10,7 @@
     border-radius: 0% 0% 40% 40%;
     box-shadow:0px 0px 40px 7px rgb(52, 131, 209) ;
 }
-.MuiBottomNavigationAction-root.Mui-selected {
+.nav-three .MuiBottomNavigationAction-root.Mui-selected {
     background-color: #dbedff;
     border-radius: 10px 10px 20px 55%;
 }

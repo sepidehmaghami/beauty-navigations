@@ -1,0 +1,16 @@
+.navigation-four{
+    background: linear-gradient(to bottom, #fa4842,#e07874,  #1c78e0) !important;
+    padding: 50px;
+}
+
+.nav-four{
+    background-color: #fff !important;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+.nav-four .MuiBottomNavigationAction-root.Mui-selected {
+    background-color: #fc5e5c;
+    color: #fff !important;
+    border-radius: 25px;
+}

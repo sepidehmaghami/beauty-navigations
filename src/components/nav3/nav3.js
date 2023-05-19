@@ -21,8 +21,8 @@ function Nav3() {
       className="nav-three"
     >
       <BottomNavigationAction label="List" icon={<ListIcon />} />
-      <BottomNavigationAction label="LocalOffer" icon={<LocalOfferIcon />} />
-      <BottomNavigationAction label="LocalMall" icon={<LocalMallIcon />} />
+      <BottomNavigationAction label="Offer" icon={<LocalOfferIcon />} />
+      <BottomNavigationAction label="Mall" icon={<LocalMallIcon />} />
       <BottomNavigationAction label="Notifications" icon={<NotificationsIcon />} />
     </BottomNavigation>
         <BackBtn/>

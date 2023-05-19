@@ -11,18 +11,18 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 function Nav4() {
   const [value, setValue] = React.useState(0);
   return (
-    <div className="navigation-three">
+    <div className="navigation-four">
        <BottomNavigation
       value={value}
       onChange={(event, newValue) => {
         setValue(newValue);
       }}
       // showLabels
-      className="nav-three"
+      className="nav-four"
     >
       <BottomNavigationAction label="List" icon={<ListIcon />} />
-      <BottomNavigationAction label="LocalOffer" icon={<LocalOfferIcon />} />
-      <BottomNavigationAction label="LocalMall" icon={<LocalMallIcon />} />
+      <BottomNavigationAction label="Offer" icon={<LocalOfferIcon />} />
+      <BottomNavigationAction label="Mall" icon={<LocalMallIcon />} />
       <BottomNavigationAction label="Notifications" icon={<NotificationsIcon />} />
     </BottomNavigation>
         <BackBtn/>
